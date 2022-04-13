@@ -10,6 +10,7 @@
 <body style="background-color: darkslategray; text-align: center">
 
 <header>Digital Signature Verificator</header>
+
 <?php
 include 'verification.php';
 ?>
