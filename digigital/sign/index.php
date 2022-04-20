@@ -11,7 +11,6 @@
 <header>Digital Signature Creator</header>
 <?php
 if (isset($_POST['submit'])) {
-    include 'dat/dbh.php';
     include 'dat/signature.php';
     header('Location: ' . $_SERVER['PHP_SELF']);
     }
