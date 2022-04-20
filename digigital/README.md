@@ -3,7 +3,7 @@
   UwAmp
   
 ## Spuštění:
-- 1.složku "digigital" vložte do /xampp/htdocs/
+- 1.složku "digigital" vložte do www/my-app/
 - 2.do souboru /digigital/sign/dat/data.txt napiště zprávu, kterou chcete digitálně podepsat
 - 3.v UwAmpu zapněte Apache a MySQL
 - 4.ve složce /digigital/dat_creation/ naleznete createDat.sql, pomocí kterého vytvoříte databázi
