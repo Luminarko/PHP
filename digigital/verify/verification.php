@@ -31,7 +31,7 @@ if($key != null){
        echo "<p>Soubor byl pozměněn.</p>";
     }
     }else{
-    echo "<p>Soubor není digitálně podepsán.</p>";
+    echo "<p>Soubor nelze verifikovat.</p>";
 }
-unlink("data.txt")
+unlink("../../data.txt")
 ?>

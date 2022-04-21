@@ -22,6 +22,4 @@ $signed = $file_content.'###'.$id.'###'.$encryptedHash;
 $stream = fopen('../../data.txt', 'w');
 fwrite($stream, $signed);
 fclose($stream);
-
-unlink('data.txt');
 ?>
