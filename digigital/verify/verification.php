@@ -31,7 +31,7 @@ if($key != null){
        echo "<p>Soubor byl pozměněn.</p>";
     }
     }else{
-    echo "<p>Soubor nelze verifikovat.</p>";
+    echo "<p>Certifikát nebyl rozpoznán.</p>";
 }
 unlink("../../data.txt")
 ?>
