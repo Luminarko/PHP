@@ -50,7 +50,7 @@ class Test{
                 echo "Tvoje heslo je velice dobré, ale ne perfektní <3";
             }
         }else{
-            echo "DOPICII";
+            echo "Tvé heslo je na tom velice špatně... Je čas využít funkci upgrade_old() z classy Password.";
         }
     }
 }
